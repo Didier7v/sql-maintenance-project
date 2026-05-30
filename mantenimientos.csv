@@ -1,0 +1,16 @@
+id,equipo_id,tecnico_id,fecha,tipo,costo
+1,1,1,2025-01-15,Preventivo,350
+2,2,2,2025-01-20,Correctivo,600
+3,3,3,2025-02-01,Preventivo,275
+4,4,1,2025-02-10,Correctivo,700
+5,5,4,2025-02-15,Preventivo,300
+6,1,5,2025-03-01,Correctivo,450
+7,2,2,2025-03-12,Preventivo,220
+8,3,3,2025-03-18,Correctivo,520
+9,6,4,2025-04-01,Preventivo,180
+10,4,1,2025-04-08,Preventivo,260
+11,5,5,2025-04-15,Correctivo,800
+12,6,2,2025-04-20,Preventivo,190
+13,1,1,2025-05-05,Preventivo,210
+14,2,4,2025-05-10,Correctivo,640
+15,3,3,2025-05-22,Preventivo,230
