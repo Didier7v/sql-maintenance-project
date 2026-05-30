@@ -1,14 +1,14 @@
 SQL Maintenance Analysis.
 
-Description
+Description.
 
 Data analysis project using PostgreSQL to manage industrial maintenance information.
 
-Objective
+Objective.
 
 Design a relational database, import data from CSV files, and perform SQL queries to obtain insights about maintenance costs and activities.
 
-Data Source
+Data Source.
 
 The original dataset was provided in Excel format:
 maintenance_dataset.xlsx
