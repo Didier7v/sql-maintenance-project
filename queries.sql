@@ -1,4 +1,4 @@
-Query 1.Mantenimientos con equipo y técnicoSELECT m.id, e.nombre AS equipo, t.nombre AS tecnico, m.fecha, m.tipo, m.costoFROM mantenimientos m JOIN equipos e ON m.equipo_id = e.id JOIN tecnicos t ON m.tecnico_id = t.id;
+Query 1.Mantenimientos con equipo y técnico SELECT m.id, e.nombre AS equipo, t.nombre AS tecnico, m.fecha, m.tipo, m.costo FROM mantenimientos m JOIN equipos e ON m.equipo_id = e.id JOIN tecnicos t ON m.tecnico_id = t.id;
 Query 2.Costo total de mantenimientoSELECT SUM(costo) AS costo_total FROM mantenimientos;
 Query 3.Costo total por equipo SELECT e.nombre AS equipo, SUM(m.costo) AS costo_total FROM mantenimientos m JOIN equipos e ON m.equipo_id = e.id GROUP BY e.nombre ORDER BY costo_total DESC;
 Query 4.Cantidad de mantenimientos por tipo SELECT tipo, COUNT(*) AS total_mantenimientos FROM mantenimientos GROUP BY tipo;
